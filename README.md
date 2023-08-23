@@ -1,4 +1,4 @@
-# Call Cadence Analysis Dashboard
+# Summer Trends in NYC Bike Trips
 BI_Project_Cyclistic
 
 # DATA USED:
@@ -9,52 +9,39 @@ BI_Project_Cyclistic
 **Data Visualization**: Tableau
 
 
-# SUMMARY OF FINDINGS:
+This GitHub repository showcases an interactive dashboard analyzing seasonal trends and patterns of bike trips in New York City using Tableau. The dashboard is designed to provide insights into user behaviors, popular starting and ending locations, and seasonal variations in bike usage.
 
-**Description**
+## Features
 
-This GitHub project provides a Call Cadence Analysis Dashboard, aimed at analyzing customer service call data. The dashboard utilizes Tableau to visualize and explore the monthly and weekly call cadence of a customer service team, providing insights into repeat calls and first contact patterns. The project includes interactive components and tables that allow stakeholders to explore different aspects of the call data.
+### Tab 1: Seasonal Trends of Bike Trips
 
-**Features**
+- Interactive map displaying bike trip trends in each NYC borough.
+- Filter options for bike IDs, user types, metrics, months, starting and ending neighborhoods.
+- Table comparing trip counts and average duration for customers and subscribers in different neighborhoods.
+- Focus on high-traffic months: July, August, and September.
 
-The Call Cadence Analysis Dashboard consists of several tabs and visualizations:
+### Tab 2: Seasonality Analysis
 
+- "Trip Totals" chart illustrating yearly bike trip trends for customers and subscribers.
+- "Trip Counts by Starting Neighborhood" table categorizing trips by neighborhood, highlighting peak months.
+- Insights into prime starting locations for targeted advertising.
 
+### Tab 3: Top Trips Comparison
 
-**Monthly and Weekly Call Cadence**
+- Horizontal stacked bar graphs for comparing total trip minutes by starting and ending neighborhoods.
+- Identification of locations users are willing to travel long distances to.
+- Emphasis on popular destinations: Lower East Side and Chelsea and Clinton neighborhoods.
 
-The first tab includes two bar charts showcasing the number of repeat calls received each month and the percentage of first contact calls by day of the week. The charts illustrate the frequency of repeat calls throughout the week and the distribution of initial contact calls across different days of the week.
+## Key Insights
 
+1. **User Segmentation**: Subscribers are the dominant user group, while customers prefer occasional rides.
+   
+2. **Seasonal Variations**: Bike trips peak during warmer months, showing a clear seasonal trend.
 
+3. **Preferred Starting Neighborhoods**: Lower East Side and Chelsea and Clinton neighborhoods are active starting points, suggesting focused advertising efforts.
 
-**Repeat Calls by Date and Market/Type**
+4. **Popular Destinations**: Both Lower East Side and Chelsea and Clinton neighborhoods stand out as popular start and end locations.
 
-The second tab features two tables: "Repeat Calls by First Call Date" and "Calls by Market and Type." The "Repeat Calls by First Call Date" table provides insights into the number of different types of calls by date, allowing stakeholders to analyze call patterns over time. The "Calls by Market and Type" table further categorizes calls based on market and problem type, offering specific information on the markets that experience the most calls and the common problems prompting repeat calls.
-
-
-
-**Market and Type for First Repeat Calls**
-
-The "Market and Type for First Repeat Calls" visualization utilizes data from the previous table to visually represent the problem types that generate the most repeat calls for different markets. This visualization aids in identifying the specific issues that lead customers to make repeat calls within various markets.
-
-**Calls Across Q1**
-
-The final tab presents two charts: "Day 0 Calls by Market and Type Across Q1" and "First Repeat Call by Market and Type Across Q1."
-These charts provide insights into the number of Day 0 calls and first repeat calls across different markets and problem types during the first quarter of the year. Users can identify which markets and problem types generate the most calls initially and which ones prompt customers to make repeat calls after their first contact.
-
-
-**Usage**
-
-This GitHub project serves as a comprehensive solution for analyzing call cadence in a customer service context. It provides an interactive dashboard in Tableau, enabling stakeholders to gain actionable insights into customer behavior and identify areas for improvement in call management and customer satisfaction.
-
-
-
-**Next Steps**
-
-The project can be further expanded by incorporating additional data sources or refining the existing visualizations to address specific business needs. Users can customize the dashboard to explore different time frames, markets, or problem types, providing a flexible tool for ongoing analysis and decision-making.
-
-**Note**
-This exemplar project serves as an example to guide your own analysis and visualization process. Feel free to explore the interactive components of the dashboard on Tableau Public to gain a better understanding of its functionality and adapt it according to your requirements.
 
 ![Google Business Intelligence Certificate_ Cyclistic_page-0003](https://github.com/Ronit11246/Bi_Project1/assets/108767208/6e59993c-efb8-41b1-8bb9-eecd1aabcaa3)
 ![Google Business Intelligence Certificate_ Cyclistic_page-0002](https://github.com/Ronit11246/Bi_Project1/assets/108767208/cb22b3ee-878d-44cf-8974-f2359cde14f8)
